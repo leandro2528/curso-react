@@ -1,5 +1,11 @@
+
 export const Amostras = () => {
     return (
-        <h1> página de Amostras </h1>
+       <div>
+
+<h1> página de Amostras </h1>
+      
+
+       </div>
     );
 }

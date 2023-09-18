@@ -1,6 +1,11 @@
+
 export const Dashboard = () => {
 
     return (
-        <h1> página de Dashboard </h1>
+       <div>
+         <h1> página de Dashboard </h1>
+        
+       </div>
+      
     );
 }
