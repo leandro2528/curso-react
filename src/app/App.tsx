@@ -1,12 +1,11 @@
-import { Routesapp } from "../routes";
-
+import { RoutesApp } from "../routes";
 
 export const App = () => {
 
   return (
 
     <div className="App">
-      <Routesapp />
+      <RoutesApp />
     </div>
 
   );

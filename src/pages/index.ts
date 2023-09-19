@@ -1,3 +1,3 @@
-export * from './dashboard/Dashboard';
-export * from './amostras/Amostras';
-export * from './observatorios/Observatorios';
+export { Dashboard } from './dashboard/Dashboard';
+export { Amostras } from './amostras/Amostras';
+export { Observatorio } from './observatorio/Observatorio';

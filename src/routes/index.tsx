@@ -1,13 +1,15 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import { Amostras, Dashboard, Observatorios } from "../pages";
+import { Dashboard } from "../pages";
+import { Amostras } from '../pages';
+import { Observatorio } from "../pages";
 
-export const Routesapp = () => {
-    return(
+export const RoutesApp = () => {
+    return (
         <BrowserRouter>
             <Routes>
                 <Route path="/dashboard" element={<Dashboard />} />
-                <Route path="/amostras" element={<Amostras />} />
-                <Route path="/observatorios" element={<Observatorios />} />
+                <Route path="amostras" element={<Amostras />} />
+                <Route path="observatorio" element={<Observatorio />} />
             </Routes>
         </BrowserRouter>
     );
